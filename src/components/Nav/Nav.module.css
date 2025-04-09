@@ -1,0 +1,28 @@
+.nav__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0px;
+}
+.nav__content a{
+    color: var(--white);
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    display: inline-block;
+    padding-bottom: 1rem;
+}
+.nav__content a:hover{
+    border-color: white;
+}
+.nav__content ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    column-gap: 3rem;
+}
+@media(max-width:480px){
+    .nav__content{
+        justify-content: center;
+        column-gap: 3rem;
+    }
+}
